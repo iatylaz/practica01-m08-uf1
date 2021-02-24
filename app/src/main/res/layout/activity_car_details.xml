@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MarcaDetailsActivity">
+
+        <ImageView
+            android:id="@+id/image_car"
+            android:layout_width="229dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/car_name"
+            android:layout_width="327dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/car_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_car"
+            tools:text="Nombre Marca" />
+
+        <TextView
+            android:id="@+id/car_description"
+            android:layout_width="277dp"
+            android:layout_height="202dp"
+            android:layout_marginEnd="10dp"
+            android:text="Descripcion"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.54"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_car"
+            app:layout_constraintVertical_bias="0.521" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

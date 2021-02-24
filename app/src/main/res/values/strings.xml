@@ -1,0 +1,19 @@
+<resources>
+
+
+    <!--App Strings-->
+    <string name="app_name">MARCAS</string>
+    <!--Main Strings-->
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!--Nav Strings-->
+    <string name="nav_n">ORIOL PONCELAS CRESPO</string>
+    <string name="nav_c">oriol@domain.cat</string>
+
+    <!--Items nav Strings-->
+    <string name="item_1">Cuenta</string>
+    <string name="item_2">Camara</string>
+    <string name="item_3">Galeria</string>
+    <string name="item_4">Videos</string>
+
+</resources>
